@@ -97,5 +97,9 @@ from there I was able to log in to my server through ssh. SUCCESS!
 Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
 power of when the lid is closed on my HP Stream.
 
+### [Setting up firewall](Setup/firewall.md)
+
+### [Setting up VPN for remote access](Setup/VPN.md)
+
 
 
