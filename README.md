@@ -23,11 +23,11 @@ self hosting, cloud servics/storage, and database handling
 - [ ] Sansa e250 auto syncing & music transfer
 
 
-### Goal  milestones
+### Milestones
 - [x] Setup SSH, make IP address static
-- [x] Be able to remotely access server
 - [ ] Setup firewall
 - [ ] Setup VPN
+- [ ] Be able to remotely access server
 - [ ] Install and configure jellyfin
 - [ ] Eventually move server to HP Pavilion
 - [ ] Setup personal and proffessional websites
