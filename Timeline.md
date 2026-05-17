@@ -70,6 +70,6 @@ Before I knew it, the server was up and running. While this documentation may
 have seemed like a streamlined problem-solution proccess, it was quite difficult
 and I started to get burnt out trying to understand why such a simple proccess caused so many problems.
  
-## Setting up Static IP.
+## Setting up [Static IP](Setup/static-ip.d)
 
 
