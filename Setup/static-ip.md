@@ -17,10 +17,11 @@ correct one to then procceed with server functions
 ## How to get a Static IP?
 For my server, I will be reserving an IP through my router (DHCP reservation)
 ### Steps:
-1. Log into router
-2. Find connected devices
-3. Find my server/MAC address belonging to it
-4. Reserve static IP to mac address/server
+1. type netstat -nr | grep default in terminal to find router ip
+2. Log into router
+3. Find connected devices
+4. Find my server/MAC address belonging to it
+5. Reserve static IP to mac address/server
 
 ## Result:
 - Server IP:
