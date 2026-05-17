@@ -88,4 +88,5 @@ While doing it through the server may seem straightfoward, As a begginer I want 
 future problems so I will go with the router method.
 
 Once logging on to my router's page, I navigated to the devices connected to the internet, and reserved my server's ip.
+from there I was able to log in to my server through ssh. SUCCESS!
 
