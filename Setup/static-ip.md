@@ -22,6 +22,8 @@ For my server, I will be reserving an IP through my router (DHCP reservation)
 3. Find connected devices
 4. Find my server/MAC address belonging to it
 5. Reserve static IP to mac address/server
+6. Record IP address
+7. Connect to server with IP with: ssh yourusername@yourserverip
 
 ## Result:
 - Date completed: May 17th 2025
