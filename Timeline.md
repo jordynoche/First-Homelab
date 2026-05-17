@@ -80,4 +80,12 @@ and I started to get burnt out trying to understand why such a simple proccess c
  
 ### [Setting Static IP](Setup/static-ip.md)
 
+I learned that you can also assign an ip address in the server directly rather than trying to login to the router.
+However, doing it this way may causes issues long term as the IP you'd choose isn't reserved which futher
+allows for other devices to try and mount on it. 
+
+While doing it through the server may seem straightfoward, As a begginer I want to ensure that theres minimal
+future problems so I will go with the router method.
+
+Once logging on to my router's page, I navigated to the devices connected to the internet, and reserved my server's ip.
 
