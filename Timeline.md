@@ -90,7 +90,7 @@ future problems so I will go with the router method.
 Once logging on to my router's page, I navigated to the devices connected to the internet, and reserved my server's ip.
 from there I was able to log in to my server through ssh. SUCCESS!
 
-### [Disabling sleep functions](Setup/disabling-sleep.md)
+### [Disabling sleep functions](Setup/disable-sleep.md)
 Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
 power of when the lid is closed on my HP Stream.
 
