@@ -24,7 +24,7 @@ self hosting, cloud servics/storage, and database handling
 
 
 ### Goal  milestones
-- [ ] Setup SSH, make ip address static
+- [x] Setup SSH, make ip address static
 - [ ] Setup firewall
 - [ ] Setup VPN
 - [ ] Be able to remotely access server
