@@ -7,6 +7,7 @@ homelab server.
 This project will also serve to document my journey with learning linux,
 self hosting, cloud servics/storage, and database handling
 
+## Debian 13.05
 ## Hardware
 - M1 2021 Macbook pro [16gb ram, 512 ssd]
 - HP Stream [4gb ram, 64 emmc flash] (temporary)
