@@ -24,5 +24,4 @@ For my server, I will be reserving an IP through my router (DHCP reservation)
 5. Reserve static IP to mac address/server
 
 ## Result:
-- Server IP:
--Date completed: May 17th 2025
+- Date completed: May 17th 2025
