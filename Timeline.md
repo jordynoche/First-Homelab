@@ -9,7 +9,7 @@ to April 2026. At the time of writing this, it is now May 2026
 
 
 # Hardware History
-- ### HP Pavilion 2022-2023
+- ## HP Pavilion 2022-2023
 I first got the HP Pavilion around 2022. This laptop was one of 
 the first laptops I used to delve in my creative passions such as Blender, 
 After effects, Photoshop, etc. It served a very important purpose in my capabilities today.
