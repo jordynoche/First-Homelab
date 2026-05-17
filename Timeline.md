@@ -38,11 +38,13 @@ but somehow he was able to run roblox and code game scrips. I gave my brother my
 
 
 
+
 # General History
 ## May 15th 2025
 To familiarize myself with the installation proccess of a new OS (I've never used Linux)
 I installed UTM on my Mac to run a virtual machine of Ubuntu server. Here, I learned
 the importances of virtulization, and  how fun it can be.
+
 
 ## May 16th 2025
 Initially, I was going to install ubuntu server on my first HP Pavilion, intending
@@ -56,7 +58,8 @@ I begrudgingly turned towards the HP Stream.
 I also took a liking to Debian's community. They detailed its simplicity and 
 "it just works" basis.
 
-So, i flashed debian on my usb drive
+So, i flashed debian on my usb drive.
+
 
 ## May 17th 2025
 In reluctance to changing geers to the HP Stream, I tried installing Debian
