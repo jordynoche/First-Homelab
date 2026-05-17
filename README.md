@@ -15,23 +15,23 @@ self hosting, cloud servics/storage, and database handling
 -  PS Vita [64gb]
 
 ## Goals/Services
-- [] Jellyfin (movies, shows, manga, documents, and music)
-- [] Personal Web server
-- [] Professional Web server for my dad
-- [] PS Vita media streaming
-- [] Sansa e250 auto syncing & music transfer
+- [ ] Jellyfin (movies, shows, manga, documents, and music)
+- [ ] Personal Web server
+- [ ] Professional Web server for my dad
+- [ ] PS Vita media streaming
+- [ ] Sansa e250 auto syncing & music transfer
 
 
 ### Goal  milestones
-- [] Setup SSH, make ip address static
-- [] Setup firewall
-- [] Setup VPN
-- [] Be able to remotely access server
-- [] Install and configure jellyfin
-- [] Eventually move server to HP Pavilion
-- [] Setup personal and proffessional websites
-- [] Write auto syncing scripts for sansa250
-- [] Set up PS Vita media streaming
+- [ ] Setup SSH, make ip address static
+- [ ] Setup firewall
+- [ ] Setup VPN
+- [ ] Be able to remotely access server
+- [ ] Install and configure jellyfin
+- [ ] Eventually move server to HP Pavilion
+- [ ] Setup personal and proffessional websites
+- [ ] Write auto syncing scripts for sansa250
+- [ ] Set up PS Vita media streaming
 
 
 
