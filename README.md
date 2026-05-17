@@ -24,10 +24,10 @@ self hosting, cloud servics/storage, and database handling
 
 
 ### Goal  milestones
-- [x] Setup SSH, make ip address static
+- [x] Setup SSH, make IP address static
+- [x] Be able to remotely access server
 - [ ] Setup firewall
 - [ ] Setup VPN
-- [ ] Be able to remotely access server
 - [ ] Install and configure jellyfin
 - [ ] Eventually move server to HP Pavilion
 - [ ] Setup personal and proffessional websites
