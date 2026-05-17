@@ -1,5 +1,5 @@
 After successfully installing Debian, I need to reserve an IP so I can
-connect to my server through SSH. see [timeline](./First-Homelab/Timeline.md)
+connect to my server through SSH. see [timeline](/First-Homelab/Timeline.md)
 
 # Static IP Setup
 ## What is a Static IP
