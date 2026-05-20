@@ -79,9 +79,6 @@ Before I knew it, the server was up and running. While this documentation may
 have seemed like a streamlined problem-solution proccess, it was quite difficult
 and I started to get burnt out trying to understand why such a simple proccess caused so many problems.
 
- 
-
-## Setting up [Static IP](Setup/static-ip.d)
 
 ### [Setting Static IP](Setup/static-ip.md)
 
@@ -100,9 +97,32 @@ from there I was able to log in to my server through ssh. SUCCESS!
 Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
 power of when the lid is closed on my HP Stream.
 
-### [Setting up firewall](Setup/firewall.md)
+## May 19th, 2026
+- Security (will return on a later date)
+### [Firewall](Setup/firewall.md)
+After doing some research I found that Opnsense and pFsense were my best options
+for my current begginer state. I also learned that i'd need dedicated hardware
+to act as my firewall (which I current do not have at the moment due to microsft)
 
-### [Setting up VPN for remote access](Setup/VPN.md)
+Therefore I will be installing a firewall at a later date when I have a seperate device
+and money :,).
+
+
+### [VLAN](Setup/Vlan.md)
+In the future I would also like to setup. At my current posistion in homelabbing
+I don't it particulary neccesary as I there isn't really any
+smart devices connected to my network besides phones, tablets, and a regular tv.
+Though in the future, I would like to dedicate a network to my person device
+ecosystem.
+
+- Storage
+### [NAS for media storage](Setup/NAS.md)
+I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is
+
+
+### [Installing Docker](Setup/Docker/Docker.md
+### [VPN](Setup/Docker/VPN.md)
+### [Jellyfin](Setup/Docker/Jellyfin.md
 
 
 
