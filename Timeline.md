@@ -2,12 +2,14 @@ I've began to develop an interest for homelabbing around December 2025
 to April 2026. At the time of writing this, it is now May 2026
 
 # Hardware considered
+- HP Pavilion 2022
+- HP Pavilion 2023
 - Macbook pro 2021 M1 (main computer)
 - HP Stream
-- HP Pavilion
+
 
 # Hardware History
-## HP Pavilion 2022-2023
+- ## HP Pavilion 2022-2023
 I first got the HP Pavilion around 2022. This laptop was one of 
 the first laptops I used to delve in my creative passions such as Blender, 
 After effects, Photoshop, etc. It served a very important purpose in my capabilities today.
@@ -19,31 +21,35 @@ being able to find my recovery key. And so, the laptop was abandoned.
 
 Id also like to note that the screen cracked due to hinge problems.
 
-## HP Pavilion x360 2023-2025
+- ## HP Pavilion x360 2023-2025
 Within a month, I purchased another pavilion. This laptop stuck with me from
 2023-2025. While it was a good laptop, it again suffered from touchpad issues, and the hinge failed, cracking the screen in half. Thankfully it was under
 warrenty at the time so I was able to get it fixed. However, the back panel was
 not screwed on properly, and I found windows to be quite slow. I also
 was quite tired of HP hardware failures. I wanted a change.
 
-## Macbook pro 2021 2025-current
+- ## Macbook pro 2021 2025-current
 I bought my Macbook refurbished from Back Market and it works as good as new!
 Even after a year of usage. My main concerns for buying a laptop was the specs.
 I needed it to be able to handle blender and the MB Pro does just that. This
 Mac will also be used to manage my server through SSH.
 
-## HP Stream
+- ## HP Stream
 The HP Stream belonged to my brother. It's not a great laptop in terms of specs
 but somehow he was able to run roblox and code game scrips. I gave my brother my second  HP Pavilion. He fixed the touchpad and Epoxie'd the screen.
 
-# General History
 
-## May 15th 2025
+
+# General History
+## May 15th, 2025
+### Flashing Ubuntu onto USB drive, Virtualization
 To familiarize myself with the installation proccess of a new OS (I've never used Linux)
 I installed UTM on my Mac to run a virtual machine of Ubuntu server. Here, I learned
 the importances of virtulization, and  how fun it can be.
 
-## May 16th 2025
+
+## May 16th, 2025
+### Troubles with installing Ubuntu
 Initially, I was going to install ubuntu server on my first HP Pavilion, intending
 to wipe the old window's software. I found this path to be unsuccessful and the 
 installation kept crashing. I did more research and found out that it may've been
@@ -55,9 +61,12 @@ I begrudgingly turned towards the HP Stream.
 I also took a liking to Debian's community. They detailed its simplicity and 
 "it just works" basis.
 
-So, i flashed debian on my usb drive
+So, i flashed debian on my usb drive.
 
-# May 17th 2025
+
+
+## May 17th, 2025
+### Troubles with installing Ubuntu/Installing Debian
 In reluctance to changing geers to the HP Stream, I tried installing Debian
 on the Pavilion. Again, the installation did not work. It was at this point that
 I found out about the hard drive issue and finally booted Debian on the HP Stream.
@@ -69,7 +78,31 @@ Legacy)
 Before I knew it, the server was up and running. While this documentation may
 have seemed like a streamlined problem-solution proccess, it was quite difficult
 and I started to get burnt out trying to understand why such a simple proccess caused so many problems.
+
  
+
 ## Setting up [Static IP](Setup/static-ip.d)
+
+### [Setting Static IP](Setup/static-ip.md)
+
+I learned that you can also assign an ip address in the server directly rather than trying to login to the router.
+However, doing it this way may causes issues long term as the IP you'd choose isn't reserved which futher
+allows for other devices to try and mount on it. 
+
+While doing it through the server may seem straightfoward, As a begginer I want to ensure that theres minimal
+future problems so I will go with the router method.
+
+Once logging on to my router's page, I navigated to the devices connected to the internet, and reserved my server's ip.
+from there I was able to log in to my server through ssh. SUCCESS!
+
+
+### [Disabling sleep functions](Setup/disable-sleep.md)
+Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
+power of when the lid is closed on my HP Stream.
+
+### [Setting up firewall](Setup/firewall.md)
+
+### [Setting up VPN for remote access](Setup/VPN.md)
+
 
 

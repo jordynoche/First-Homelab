@@ -23,8 +23,8 @@ self hosting, cloud servics/storage, and database handling
 - [ ] Sansa e250 auto syncing & music transfer
 
 
-### Goal  milestones
-- [ ] Setup SSH, make ip address static
+### Milestones
+- [x] Setup SSH, make IP address static
 - [ ] Setup firewall
 - [ ] Setup VPN
 - [ ] Be able to remotely access server
