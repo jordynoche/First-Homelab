@@ -14,12 +14,15 @@ I first got the HP Pavilion around 2022. This laptop was one of
 the first laptops I used to delve in my creative passions such as Blender, 
 After effects, Photoshop, etc. It served a very important purpose in my capabilities today.
 
+
 Though one day, I booted it and it was stuck on the loading screen.
 At the time I wasn't all that tech savvy when it came to hardware
 but the causes was relating to the bios. I could not wipe windows due to me not
 being able to find my recovery key. And so, the laptop was abandoned.
 
+
 Id also like to note that the screen cracked due to hinge problems.
+
 
 - ## HP Pavilion x360 2023-2025
 Within a month, I purchased another pavilion. This laptop stuck with me from
@@ -28,11 +31,13 @@ warrenty at the time so I was able to get it fixed. However, the back panel was
 not screwed on properly, and I found windows to be quite slow. I also
 was quite tired of HP hardware failures. I wanted a change.
 
+
 - ## Macbook pro 2021 2025-current
 I bought my Macbook refurbished from Back Market and it works as good as new!
 Even after a year of usage. My main concerns for buying a laptop was the specs.
 I needed it to be able to handle blender and the MB Pro does just that. This
 Mac will also be used to manage my server through SSH.
+
 
 - ## HP Stream
 The HP Stream belonged to my brother. It's not a great laptop in terms of specs
@@ -41,14 +46,15 @@ but somehow he was able to run roblox and code game scrips. I gave my brother my
 
 
 # General History
-## May 15th, 2025
+## May 15th, 2025 (General Setup)
 ### Flashing Ubuntu onto USB drive, Virtualization
 To familiarize myself with the installation proccess of a new OS (I've never used Linux)
 I installed UTM on my Mac to run a virtual machine of Ubuntu server. Here, I learned
 the importances of virtulization, and  how fun it can be.
 
 
-## May 16th, 2025
+# General Setup
+## May 16th, 2025 (General Setup)
 ### Troubles with installing Ubuntu
 Initially, I was going to install ubuntu server on my first HP Pavilion, intending
 to wipe the old window's software. I found this path to be unsuccessful and the 
@@ -57,72 +63,77 @@ a hard drive issue as it was not listed in the bios. Since then, I've been able
 to recover my old miscrosoft account the belonged to the laptop. However, the
 information present was outdated. After changing it, I was then prompted to wait a month to be able to access my recovery key. (if there even is one)
 
+
 I begrudgingly turned towards the HP Stream.
 I also took a liking to Debian's community. They detailed its simplicity and 
 "it just works" basis.
 
+
 So, i flashed debian on my usb drive.
 
 
-
-## May 17th, 2025
+## May 17th, 2025 (General Setup)
 ### Troubles with installing Ubuntu/Installing Debian
 In reluctance to changing geers to the HP Stream, I tried installing Debian
 on the Pavilion. Again, the installation did not work. It was at this point that
 I found out about the hard drive issue and finally booted Debian on the HP Stream.
 
+
 The proccess was easy, though I had to go through the installation a few times
 as the HP Stream bios is a bit different from the Pavilion's. (I had to disable
 Legacy)
+
 
 Before I knew it, the server was up and running. While this documentation may
 have seemed like a streamlined problem-solution proccess, it was quite difficult
 and I started to get burnt out trying to understand why such a simple proccess caused so many problems.
 
 
-### [Setting Static IP](Setup/static-ip.md)
-
+### [Static IP](Setup/Basic-Setup/static-ip.md)
 I learned that you can also assign an ip address in the server directly rather than trying to login to the router.
 However, doing it this way may causes issues long term as the IP you'd choose isn't reserved which futher
-allows for other devices to try and mount on it. 
+allows for other devices to try and mount on it.
+ 
 
 While doing it through the server may seem straightfoward, As a begginer I want to ensure that theres minimal
 future problems so I will go with the router method.
+
 
 Once logging on to my router's page, I navigated to the devices connected to the internet, and reserved my server's ip.
 from there I was able to log in to my server through ssh. SUCCESS!
 
 
-### [Disabling sleep functions](Setup/disable-sleep.md)
+### [Disabling sleep functions](Setup/Basic-Setup/disable-sleep.md)
 Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
 power of when the lid is closed on my HP Stream.
 
-## May 19th, 2026
-- Security (will return on a later date)
-### [Firewall](Setup/firewall.md)
+# Security (will return on a later date)
+## May 19th, 2026 (Security)
+### [Firewall](Setup/Security/firewall.md)
 After doing some research I found that Opnsense and pFsense were my best options
 for my current begginer state. I also learned that i'd need dedicated hardware
 to act as my firewall (which I current do not have at the moment due to microsft)
+
 
 Therefore I will be installing a firewall at a later date when I have a seperate device
 and money :,).
 
 
-### [VLAN](Setup/Vlan.md)
+### [VLAN](Setup/Security/vlan.md)
 In the future I would also like to setup. At my current posistion in homelabbing
 I don't it particulary neccesary as I there isn't really any
 smart devices connected to my network besides phones, tablets, and a regular tv.
 Though in the future, I would like to dedicate a network to my person device
 ecosystem.
 
-- Storage
+# Nas/Storage
 ### [NAS for media storage](Setup/NAS.md)
 I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is
 
 
-### [Installing Docker](Setup/Docker/Docker.md
-### [VPN](Setup/Docker/VPN.md)
-### [Jellyfin](Setup/Docker/Jellyfin.md
+### [Installing Docker](Setup/Docker/docker.md
+### [VPN](Setup/Docker/vpn.md)
+### [Jellyfin](Setup/Docker/jellyfin.md
 
 
 
