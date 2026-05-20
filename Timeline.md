@@ -45,17 +45,16 @@ but somehow he was able to run roblox and code game scrips. I gave my brother my
 
 
 
-# General History
-## May 15th, 2025 (General Setup)
-### Flashing Ubuntu onto USB drive, Virtualization
+# General Setup
+May 15th, 2025 (General Setup)
+## Flashing Ubuntu onto USB drive, Virtualization
 To familiarize myself with the installation proccess of a new OS (I've never used Linux)
 I installed UTM on my Mac to run a virtual machine of Ubuntu server. Here, I learned
 the importances of virtulization, and  how fun it can be.
 
 
-# General Setup
-## May 16th, 2025 (General Setup)
-### Troubles with installing Ubuntu
+May 16th, 2025 (General Setup)
+## Troubles with installing Ubuntu
 Initially, I was going to install ubuntu server on my first HP Pavilion, intending
 to wipe the old window's software. I found this path to be unsuccessful and the 
 installation kept crashing. I did more research and found out that it may've been
@@ -72,8 +71,8 @@ I also took a liking to Debian's community. They detailed its simplicity and
 So, i flashed debian on my usb drive.
 
 
-## May 17th, 2025 (General Setup)
-### Troubles with installing Ubuntu/Installing Debian
+May 17th, 2025 (General Setup)
+## Troubles with installing Ubuntu/Installing Debian
 In reluctance to changing geers to the HP Stream, I tried installing Debian
 on the Pavilion. Again, the installation did not work. It was at this point that
 I found out about the hard drive issue and finally booted Debian on the HP Stream.
@@ -89,7 +88,7 @@ have seemed like a streamlined problem-solution proccess, it was quite difficult
 and I started to get burnt out trying to understand why such a simple proccess caused so many problems.
 
 
-### [Static IP](Setup/Basic-Setup/static-ip.md)
+## [Static IP](Setup/Basic-Setup/static-ip.md)
 I learned that you can also assign an ip address in the server directly rather than trying to login to the router.
 However, doing it this way may causes issues long term as the IP you'd choose isn't reserved which futher
 allows for other devices to try and mount on it.
@@ -103,13 +102,13 @@ Once logging on to my router's page, I navigated to the devices connected to the
 from there I was able to log in to my server through ssh. SUCCESS!
 
 
-### [Disabling sleep functions](Setup/Basic-Setup/disable-sleep.md)
+## [Disabling sleep functions](Setup/Basic-Setup/disable-sleep.md)
 Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
 power of when the lid is closed on my HP Stream.
 
-# Security (will return on a later date)
-## May 19th, 2026 (Security)
-### [Firewall](Setup/Security/firewall.md)
+# Security
+May 19th, 2026 (Security)
+## [Firewall](Setup/Security/firewall.md)
 After doing some research I found that Opnsense and pFsense were my best options
 for my current begginer state. I also learned that i'd need dedicated hardware
 to act as my firewall (which I current do not have at the moment due to microsft)
@@ -119,7 +118,7 @@ Therefore I will be installing a firewall at a later date when I have a seperate
 and money :,).
 
 
-### [VLAN](Setup/Security/vlan.md)
+## [VLAN](Setup/Security/vlan.md)
 In the future I would also like to setup. At my current posistion in homelabbing
 I don't it particulary neccesary as I there isn't really any
 smart devices connected to my network besides phones, tablets, and a regular tv.
@@ -127,13 +126,13 @@ Though in the future, I would like to dedicate a network to my person device
 ecosystem.
 
 # Nas/Storage
-### [NAS for media storage](Setup/NAS.md)
+## [NAS for media storage](Setup/NAS.md)
 I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is
 
-
-### [Installing Docker](Setup/Docker/docker.md
-### [VPN](Setup/Docker/vpn.md)
-### [Jellyfin](Setup/Docker/jellyfin.md
+# Docker
+## [Installing Docker](Setup/Docker/docker.md
+## [VPN](Setup/Docker/vpn.md)
+## [Jellyfin](Setup/Docker/jellyfin.md
 
 
 
