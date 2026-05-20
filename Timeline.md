@@ -129,7 +129,7 @@ May 20th, 2026
 ## [NAS](Setup/NAS.md)
 I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is
 
-# Docker
+# Containers
 May 20th, 2026
 ## [Installing Docker](Setup/Docker/docker.md)
 ## [VPN](Setup/Docker/vpn.md)
