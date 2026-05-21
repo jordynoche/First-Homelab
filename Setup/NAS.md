@@ -1,12 +1,12 @@
 For my NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server
-# 1. Logged into the server through SSH, through the command line type:
+# 1. Logged into the server through SSH, through the terminal type:
 su -
 
 (type in root password)
 
 "wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | bash"
 
-## 2. Once downloaded type:
+# 2. Once downloaded type:
 "hostname -I"
 copy and paste the ip address only
 
