@@ -1,6 +1,5 @@
 For my NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server
-# Installation
-## 1. Logged into the server through SSH, through the command line type:
+# 1. Logged into the server through SSH, through the command line type:
 su -
 
 (type in root password)
