@@ -127,7 +127,20 @@ ecosystem.
 # Media Storage
 May 20th, 2026
 ## [NAS](Setup/NAS.md)
-I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is
+I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is.
+
+Installing OMV on my server was quite simple, as well as logging in. However things started to 
+get weird after logging into OMV.
+
+I couldn't log into my SSH server. I panicked and thought I was going crazy! None of my passwords
+were working. I hate to admit that I looked the problem with AI and it ended up making things so
+much worse to the point where I had to reinstall debian all together. Note to self: Look at Reddit forums
+before turning to AI. 
+
+I'm not really sure what OMV does, but it overwrote the SSH configuration files, basically locking me
+out of my server. I soon figured out how to fix this problem and documented it in the NAS.md file.
+
+Thank you reddit. 
 
 # Containers
 May 20th, 2026
