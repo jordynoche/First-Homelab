@@ -1,13 +1,18 @@
-For my NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server
-# 1. Logged into the server through SSH, through the terminal type:
-su -
+For my NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server.
+Make sure you're logged into server via ssh before proceeding.
 
-(type in root password)
+# Installation
+## 1. Through the terminal type:
+su -
 
 "wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | bash"
 
-# 2. Once downloaded type:
+(type in root password)
+
+
+## 2. Once downloaded, type:
 "hostname -I"
+
 copy and paste the ip address only
 
 ## 3. In browser, type:
@@ -17,8 +22,10 @@ http://(ip-address)
 admin (username)
 openmediavault (password)
 
-## 5. Immidiently change password to something you can remember
+Navigate to profile,
 
+change password to somemthing you can remember
+ 
 # File accessiblity to finder
 ## 1. Plug USB into server host (HP Stream)
 OMV should automatically detence the usb stick
@@ -44,11 +51,19 @@ Go to Services → SMB/CIFS. Turn it on, then add your shared folder to it.
 On your Mac open Finder, look at the left side panel under Network and your HP Stream should appear. 
 Click it and you'll see your shared folder.
 
-# OMV and SSH fix (important)
+# OMV <-> SSH fix (important)
 When installing OMV, it will deny access into SSH. To fix this
 on the OMV website, go to users -> users -> click your name -> edit
 -> look for groups -> then find ssh and check it -> hit save.
 
 now you're able to access ssh.
+
+# Visibility through finder
+## Connect to server
+Open finder, navigate to "Go",
+
+type "smb" then the ip for your server
+
+hit connect and you should be able to see the NAS as a mountable drive.
 
 
