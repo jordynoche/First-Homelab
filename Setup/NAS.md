@@ -1,6 +1,8 @@
 For my NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server.
 Make sure you're logged into server via ssh before proceeding.
 
+Also make sure drive is formatted to Ex4 for OMV
+
 # Installation
 ## 1. Through the terminal type:
 su -
