@@ -45,4 +45,11 @@ Go to Services → SMB/CIFS. Turn it on, then add your shared folder to it.
 On your Mac open Finder, look at the left side panel under Network and your HP Stream should appear. 
 Click it and you'll see your shared folder.
 
+# OMV and SSH fix (important)
+When installing OMV, it will deny access into SSH. To fix this
+on the OMV website, go to users -> users -> click your name -> edit
+-> look for groups -> then find ssh and check it -> hit save.
+
+now you're able to access ssh.
+
 
