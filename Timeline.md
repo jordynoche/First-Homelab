@@ -6,6 +6,7 @@ to April 2026. At the time of writing this, it is now May 2026
 - HP Pavilion 2023
 - Macbook pro 2021 M1 (main computer)
 - HP Stream
+- Lenovo Thinkcentre 720s + HP F1523h
 
 
 # Hardware History
@@ -29,7 +30,7 @@ not screwed on properly, and I found windows to be quite slow.
 
 I also was quite tired of HP hardware failures. I wanted a change.
 
-### Macbook pro 2021, 2025 - current
+### * Macbook pro 2021, 2025
 
 I bought my Macbook refurbished from Back Market and it works as good as new!
 Even after a year of usage. My main concerns for buying a laptop was the specs.
@@ -40,6 +41,9 @@ Mac will also be used to manage my server through SSH.
 ###  HP Stream
 The HP Stream belonged to my brother. It's not a great laptop in terms of specs
 but somehow he was able to run roblox and code game scrips. I gave my brother my second  HP Pavilion. He fixed the touchpad and Epoxie'd the screen.
+
+### * Lenovo Thinkcentre 720s +  HP F1523h 
+I bought this thinkcentre off of facebook marketplace on June 3rd. I figured a mini-small pc would be best suited for my needs as the stream had older hardware and was quite flakey. Along with the thinkcentre, i got a small monitor (HP f1523h) to install Debian on the pc. I also wanted to try our kDE plasma as a gui! The monitor dates 20 years back and i love the retro look that it has.
 
 
 
@@ -86,9 +90,9 @@ and I started to get burnt out trying to understand why such a simple proccess c
 
 
 
-## [Static IP](Setup/Basic-Setup/static-ip.md)
+## Static IP
 I learned that you can also assign an ip address in the server directly rather than trying to login to the router.
-However, doing it this way may causes issues long term as the IP you'd choose isn't reserved which futher
+However, doing it this way may causes issues long term as the [IP](Setup/Basic-Setup/static-ip.md) you'd choose isn't reserved which futher
 allows for other devices to try and mount on it.
  
 
@@ -101,33 +105,32 @@ from there I was able to log in to my server through ssh. SUCCESS!
 
 
 
-## [Disabling sleep functions](Setup/Basic-Setup/disable-sleep.md)
-Now that i'm connected to my server through SSH, i needed to disable the sleep functions so my server doesn't
+## Disabling sleep functions
+Now that i'm connected to my server through SSH, i needed to [disable the sleep functions](Setup/Basic-Setup/disable-sleep.md) so my server doesn't
 power of when the lid is closed on my HP Stream.
 
 # Security (Future implementations)
 May 19th, 2026 - May 20th, 2026
 
-## [Firewall](Setup/Security/firewall.md)
+## Firewall
 After doing some research I found that Opnsense and pFsense were my best options
 for my current begginer state. I also learned that i'd need dedicated hardware
-to act as my firewall (which I current do not have at the moment due to microsft)
+to act as my [firewall](Setup/Security/firewall.md) (which I current do not have at the moment due to microsft)
 
 
 Therefore I will be installing a firewall at a later date when I have a seperate device
 and money :,).
 
-## [VLAN](Setup/Security/vlan.md)
-In the future I would also like to setup. At my current posistion in homelabbing
-I don't it particulary neccesary as I there isn't really any
+## Vlan
+In the future I would also like to setup [VLAN](Setup/Security/vlan.md). At my current posistion in homelabbing
+I don't think it's particulary neccesary as there isn't really any
 smart devices connected to my network besides phones, tablets, and a regular tv.
-Though in the future, I would like to dedicate a network to my person device
-ecosystem.
+Though in the future, I would like to dedicate a network to my own personal devices
 
 # Media Storage
 May 20th, 2026
-## [NAS](Setup/NAS.md)
-I chose Open Media Vault as my NAS software due to its simplicity and how light weight it is.
+## Open Media Vault
+I chose Open Media Vault as my [NAS](Nas/NAS(omv).md) software due to its simplicity and how light weight it is.
 
 Installing OMV on my server was quite simple, as well as logging in. However things started to 
 get weird after logging into OMV.
@@ -142,8 +145,25 @@ out of my server. I soon figured out how to fix this problem and documented it i
 
 Thank you reddit. 
 
+## Purchased Lenovo Thinkcentre
+June 6th, 2026
+
+Fast fowarding to june 6th since buying a SFF pc for my new main server. Installing Debian was a breeze, and this time
+I wanted to give KDE Plasma a try. I knew that Debian holds your hand a little less than Ubuntu, but I didn't realize that
+I'd have to find a driver for my wifi stick. It was tough being that my stick was unbranded and not widely recognized by debian. Luckily
+I came across a repo that provided me with the correct driver. Though, it was that easy. While installing the driver, one of the
+proccesses failed. luckily, the issue was reported by another user to which they were helped and the problem was fixed for them (and
+me). I now could connect to the internet via wifi on my pc.
+
+Due to Open Media vault giving me problems in the past, In terms of NAS, the direction i decided to go in instead was simple-plainold samba.
+
+## Samba/Nas
+[sambanas](Nas/NAS(samba).md)
+
+  
+
+
 # Remote Accessing
-May 21th, 2026
 ## [VPN](Setup/Docker/vpn.md)
 # Containers
 ## [Installing Docker](Setup/Docker/docker.md)
