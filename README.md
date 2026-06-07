@@ -12,13 +12,16 @@ self hosting, cloud servics/storage, and database handling
 - M1 2021 Macbook pro [16gb ram, 512 ssd]
 - HP Stream [4gb ram, 64 emmc flash] (temporary)
 - HP pavilion x360 convertible [8gb ram, 512 ssd]
+- Lenovo Thinkcentre 720 SSF [16gb ram, 500 ssd, 1 tb hhd] (current)
 - Sansa e250 (mp3 player) [64gb]
 -  PS Vita [64gb]
 
 ## Goals/Services
-- [ ] Jellyfin (movies, shows, manga, documents, and music)
+- [ ] Jellyfin (movies, shows, manga, and music)
+- [ ] Personal NAS for files/documents
 - [ ] Personal Web server
-- [ ] Professional Web server for my dad
+- [ ] Password manager
+- [ ] Professional Web server for me and my dad
 - [ ] PS Vita media streaming
 - [ ] Sansa e250 auto syncing & music transfer
 
