@@ -1,4 +1,4 @@
-For my NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server.
+For my first NAS I decided to go with Open Media Vault for its simplicity and light weight usage on my server.
 Make sure you're logged into server via ssh before proceeding.
 
 Also make sure drive is formatted to Ex4 for OMV
@@ -67,5 +67,7 @@ Open finder, navigate to "Go",
 type "smb" then the ip for your server
 
 hit connect and you should be able to see the NAS as a mountable drive.
+
+### Note: I ended up switched to plain old samba
 
 
